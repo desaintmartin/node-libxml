@@ -1,6 +1,10 @@
 #!/bin/sh
 
 cd `dirname $0`
+ls -l
+ls -l support
+sudo ls -l
+sudo ls -l support
 cd support/o3
 
 rm -rf build/ || true
